@@ -1,0 +1,8 @@
+var instance = require('../lib/token');
+
+instance.analyzeAccessToken(
+		'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInJlc291cmNlTm9cIjpcInc5dXAzSklMS0tJdW5ydHJuSDA2ckZLSjlxeHNvdnR4SEdwRHhGR3BNSnB4dXFFSDQ3XCIsXCJtb2RlbFwiOlwiQ0lPVC03MDBNXCIsXCJ0eXBlXCI6XCJXUFwiLFwiY291bnRyeUNvZGVcIjpcIktPUlwiLFwicmVnaW9uQ29kZVwiOlwiQVNJQVwiLFwicmVnRGF0ZVwiOlwiMjAxNi0xMi0yOVQwMDoxMToyMVpcIixcInZlcnNpb25cIjp7XCJsYXRlc3RId1ZlclwiOlwiMC4wLjAuMVwiLFwibGF0ZXN0RndWZXJcIjpcIjAuMC4wLjFcIixcImVuZm9yY2VtZW50RmxhZ1wiOlwiWVwiLFwidXJsXCI6XCJodHRwOi8vd3d3LmNvbW1heC5jby5rclwifX18MTQ4NzMxODYxOTQzMSI.vv_iGUyojxIOWyGKIYZvv2LNgOY4voB-qd3aZ1jDb4Y',
+		'23htjkl2',
+		function(err, ddd) {
+			console.log(ddd);
+		});

@@ -1,0 +1,10 @@
+{
+  "name": "simple-token",
+  "author": {
+    "email": "leader_dk@naver.com"
+  },
+  "main": "lib/token.js",
+  "dependencies": { 
+	  "jwt-simple" : ">=0.5.0"
+  }
+}
