@@ -1,6 +1,7 @@
 {
   "name": "simple-token",
   "author": {
+    "name": "DongKeun-Kim",
     "email": "leader_dk@naver.com"
   },
   "main": "lib/token.js",
