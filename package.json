@@ -1,11 +1,7 @@
 {
-  "name": "simple-token",
-  "author": {
-    "name": "DongKeun-Kim",
-    "email": "leader_dk@naver.com"
-  },
+  "name": "dk-node-jwt-token",
   "main": "lib/token.js",
-  "dependencies": { 
-	  "jwt-simple" : ">=0.5.0"
+  "dependencies": {
+    "jwt-simple": ">=0.5.0"
   }
 }
